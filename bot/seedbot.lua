@@ -289,7 +289,7 @@ Kick all memebers and delete group
 !kill realm [RealmID]
 Kick all members and delete realm
 
-!addadmin [id|username]
+#addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
 !removeadmin [id|username]
@@ -314,7 +314,7 @@ Only sudo users can run this command
 This command will send text to [group_id]
 
 
-**U can use both "/" and "!" 
+You can use bot with #
 
 
 *Only admins and sudo can add bots in group
@@ -380,7 +380,7 @@ Set <text> as rules
 !set about <text>
 Set <text> as about
 
-!settings
+#settings
 Returns group settings
 
 !newlink
@@ -404,23 +404,23 @@ Simple message statistics
 !save [value] <text>
 Save <text> as [value]
 
-!get [value]
+#get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+#clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+#res [username]
 returns user id
-"!res @username"
+"#res @username"
 
-!log
+#log
 will return group logs
 
-!banlist
+#banlist
 will return group ban list
 
-**U can use both "/" and "!" 
+You can use bot with #
 
 
 *Only owner and mods can add bots in group
@@ -429,6 +429,9 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+Created by 
+@ArianDeveloper
 
 ]]
   }
