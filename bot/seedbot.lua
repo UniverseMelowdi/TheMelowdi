@@ -236,185 +236,115 @@ An advance Administration bot based on yagop/telegram-bot
     help_text_realm = [[
 Realm Commands:
 
-#cg [Name]
-Create a group
+#CreateGroup (Name) ♓️
+Create s a Group 🆔
 
-#cr [Name]
-Create a realm
+〰〰〰〰〰〰
 
-#setname [Name]
-Set realm name
+#CreateRealm ©
+Create s a Realm 😅
 
-#setabout [GroupID] [Text]
-Set a group's about text
+〰〰〰〰〰〰
 
-#setrules [GroupID] [Text]
-Set a group's rules
+#Set rules <text> 🔄
+Set <text> as rules 😋
 
-#lock [GroupID] [setting]
-Lock a group's setting
+〰〰〰〰〰〰
 
-#unlock [GroupID] [setting]
-Unock a group's setting
+#Set about <text> 😒
+Set <text> as about 🙈
 
-#wholist
-Get a list of members in group/realm
+〰〰〰〰〰〰
 
-#who
-Get a file of members in group/realm
+#Settings ⚙
+Returns group settings 📿
 
-#type
-Get group type
+〰〰〰〰〰〰
 
-#kill chat [GroupID]
-Kick all memebers and delete group
+#newlink 😝
+create/revoke your group link 🔄
 
-#kill realm [RealmID]
-Kick all members and delete realm
+〰〰〰〰〰〰
 
-#addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+#Link 🔄
+returns group link 🛐
 
-#removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+〰〰〰〰〰〰
 
-#list groups
-Get a list of all groups
+#Owner ✔️
+returns group owner id 😆
 
-#list realms
-Get a list of all realms
+〰〰〰〰〰〰
 
-#log
-Grt a logfile of current group or realm
+#Setowner [id] 😱
+Will set id as owner 🔸
 
-#broadcast [text]
-#broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
+〰〰〰〰〰〰
 
-#bc [group_id] [text]
-#bc 123456789 Hello !
-This command will send text to [group_id]
-
-
-You can use bot with #
-
-
-*Only admins and sudo can add bots in group
-
-
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
-]],
-    help_text = [[
-Commands list :
-
-#kick [username|id]
-You can also do it by reply
-
-#b [ username|id]
-You can also do it by reply
-
-#ub [id]
-You can also do it by reply
-
-#who
-Members list
-
-#modlist
-Moderators list
-
-#promote [username]
-Promote someone
-
-#demote [username]
-Demote someone
-
-#kickme
-Will kick user
-
-#about
-Group description
-
-#setphoto
-Set and locks group photo
-
-#setname [name]
-Set group name
-
-#rules
-Group rules
-
-#id
-return group id or user id
-
-#help
-
-#lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
-
-#unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-
-#set rules <text>
-Set <text> as rules
-
-#set about <text>
-Set <text> as about
-
-#settings
-Returns group settings
-
-#newlink
-create/revoke your group link
-
-#link
-returns group link
-
-#owner
-returns group owner id
-
-#setowner [id]
-Will set id as owner
-
-#setflood [value]
+#Setflood [value]
 Set [value] as flood sensitivity
 
-#stats
-Simple message statistics
+〰〰〰〰〰〰
 
-#save [value] <text>
-Save <text> as [value]
+#Stats ♥️
+Simple message statistics 🃏
 
-#get [value]
-Returns text of [value]
+〰〰〰〰〰〰
 
-#clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+#Save [value] <text> ♦️
+Save <text> as [value] 🔊
 
-#res [username]
-returns user id
-"#res @username"
+〰〰〰〰〰〰
 
-#log
-will return group logs
+#Get [value] 🔃
+Returns text of [value] ©
 
-#blist
-will return group ban list
+〰〰〰〰〰〰
 
-You can use bot with #
+#Clean [modlist|rules|about] 🔄
+Will clear [modlist|rules|about] and set it to nil ®
 
+〰〰〰〰〰〰
 
-*Only owner and mods can add bots in group
+#Res [username] ✔️
+returns user id ©
+#Res @username ✔️
 
+〰〰〰〰〰〰
 
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+#Log 🛐
+Show Logs 
 
-*Only owner can use res,setowner,promote,demote and log commands
+〰〰〰〰〰〰
 
-Created by 
-@ArianDeveloper
+#Banlist ❌
+Show The Banned List
+
+〰〰〰〰〰〰
+
+#AddSudo ➖
+Adds The Bot Sudo (لطفا همونطوری نزنین)
+
+〰〰〰〰〰〰
+
+#Filter (کلمه) 😅
+Filters Another Kalame 😳
+
+〰〰〰〰〰〰
+
+And Other Plugins ( There Are Too Many ! ) 😭
+
+〰〰〰〰〰〰
+
+Created By : 😆
+@Universe_Melowdi
+
+〰〰〰〰〰〰
+
+Say Thanks To : 😊
+IDetergent Team
+Steven
+AliZpj
 
 ]]
   }
